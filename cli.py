@@ -30,7 +30,7 @@ def compose(
         f.write(prompt_yaml)
     typer.echo(f"Scene saved: {output_path}")
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
     app()
     #ERROR I HAVE FACED
 '''💡 If you’re using @app.command() and have only one command(in this case 'compose'), do NOT include the function name(compose) when running it.
