@@ -4,7 +4,8 @@ import yaml
 def generate_prompt(summary: str) -> str:
     prompt = ScenePrompt(
         scene_type="flashback",
-        emotion="grief",
+        emotion="melancholy",
+        camera = "wide shot",
         characters=["kurome","mio"],
         setting="ruined shrine",
         time="dusk",
